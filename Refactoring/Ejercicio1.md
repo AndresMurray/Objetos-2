@@ -1,7 +1,3 @@
-# Práctica Refactoring Ej 1
-
-Creadas: 26 de marzo de 2025 11:17
-Asignatura: Objetos2
 
 # Ejercicio 1: Algo huele mal
 
