@@ -65,6 +65,9 @@ public class TopografiaTest {
 		
 		
 		assertTrue(pantano.sonIguales(pantanoDos));
+		
+		assertFalse(mixta.sonIguales(pantano));
+		assertFalse(pantano.sonIguales(mixta));
 	}
 	
 

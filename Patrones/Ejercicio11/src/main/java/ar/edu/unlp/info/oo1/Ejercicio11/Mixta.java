@@ -26,14 +26,14 @@ public class Mixta extends Topografia{
 		return (this.topografias.stream().mapToDouble(t -> t.getProporcionAgua()).sum())/4;
 	}
 	
-	public List<Topografia> getTopografia (){
+	public List<Topografia> getTopografias (){
 		return this.topografias;
 	}
 	
 	
 	public boolean sonIguales(Topografia otraTopografia) {
 		
-		return this.topografias.equals(otraTopografia.getTopografia());
+		return this.topografias.equals(otraTopografia.getTopografias());
 	}
 	
 	

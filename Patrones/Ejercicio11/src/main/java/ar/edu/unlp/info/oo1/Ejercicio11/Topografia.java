@@ -13,15 +13,16 @@ public abstract class Topografia {
 		return (this.getProporcionAgua()== topografia.getProporcionAgua());
 	}
 	
-	public Object getTopografia() { // RETORNO OBJETO PARA PODER COMPARAR UNA TOPOGRAFIA ATOMICA CON UNA COMPUESTA
-		return this;
+	public Object getTopografias() { // RETORNO OBJETO PARA PODER COMPARAR UNA TOPOGRAFIA ATOMICA CON UNA COMPUESTA
+		return null;
 	}
 	
 
 	
 	public boolean equals(Object object) {
 		
-		return this.sonIguales((Topografia)object);
+		//return this.sonIguales((Topografia)object);
+		return ((Topografia)object).sonIguales(this);
 	}
 
 }
