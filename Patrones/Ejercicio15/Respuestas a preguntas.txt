@@ -1,0 +1,13 @@
+3)Liste los pasos necesarios, de forma breve, los cambios que deben realizarse en su solución si se tiene la necesidad de agregar nuevas configuraciones. Especifique si se deben agregar subclases, métodos en clases existentes, renombrar métodos, etc. 
+
+Se deberían agregar métodos en director para las distintas configuraciones que se quisieran realizar. Si hay algún componente nuevo se debería agregar en el builder y luego en los concrete builder. 
+
+
+
+
+
+4)La empresa tiene la intención de incorporar otras configuraciones que agregan monitores y periféricos. ¿Qué cambios debería realizar en su solución? Liste los pasos necesarios para hacerlo (especifique si se deben agregar subclases, métodos en clases existentes, renombrar métodos, etc).
+
+
+agregaría un método nuevo en DirectorPresupuesto que seria crearPresupuestoConMonitoresYPerifecos
+agregaría setMonitor y setPeriferico en PresupuestoPcBuilder y luego en la en las clases que implementan dicha interfaz esos métodos tambien
